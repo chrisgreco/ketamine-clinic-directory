@@ -1,0 +1,72 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap");
+
+body {
+  @apply bg-navy text-soft-white font-sans antialiased;
+}
+
+::selection {
+  @apply bg-teal/30 text-soft-white;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  @apply bg-navy;
+}
+::-webkit-scrollbar-thumb {
+  @apply bg-teal/30 rounded-full;
+}
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-teal/50;
+}
+
+/* Prose styles for blog content */
+.prose-ketamine h2 {
+  @apply font-display text-2xl text-soft-white mt-10 mb-4;
+}
+.prose-ketamine h3 {
+  @apply font-display text-xl text-soft-white mt-8 mb-3;
+}
+.prose-ketamine p {
+  @apply text-soft-white/80 leading-relaxed mb-4;
+}
+.prose-ketamine ul,
+.prose-ketamine ol {
+  @apply text-soft-white/80 ml-6 mb-4 space-y-2;
+}
+.prose-ketamine ul {
+  @apply list-disc;
+}
+.prose-ketamine ol {
+  @apply list-decimal;
+}
+.prose-ketamine li {
+  @apply leading-relaxed;
+}
+.prose-ketamine a {
+  @apply text-teal underline hover:text-teal/80;
+}
+.prose-ketamine blockquote {
+  @apply border-l-4 border-teal bg-card rounded-r-lg p-4 my-6 text-soft-white/70 italic;
+}
+.prose-ketamine table {
+  @apply w-full border-collapse my-6;
+}
+.prose-ketamine th {
+  @apply bg-card text-left text-teal text-sm font-display px-4 py-3 border-b border-white/10;
+}
+.prose-ketamine td {
+  @apply text-soft-white/80 text-sm px-4 py-3 border-b border-white/5;
+}
+.prose-ketamine strong {
+  @apply text-soft-white font-semibold;
+}
+.prose-ketamine hr {
+  @apply border-white/10 my-8;
+}

@@ -1,0 +1,51 @@
+# KetamineClinics.com
+
+> A directory of ketamine therapy clinics across the United States. Helps patients find verified providers for depression, PTSD, anxiety, chronic pain, and other conditions.
+
+## Medical Disclaimer
+
+This website provides general information about ketamine therapy for educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment. Always consult a qualified healthcare provider before beginning any treatment. Ketamine is a Schedule III controlled substance. IV racemic ketamine is used off-label for psychiatric and pain conditions. Esketamine (Spravato) is FDA-approved for treatment-resistant depression and major depressive disorder with suicidal ideation.
+
+If you are in crisis, call or text 988 (Suicide & Crisis Lifeline) or text HOME to 741741 (Crisis Text Line).
+
+## Site Structure
+
+- / - Homepage with city search, condition links, and featured clinics
+- /ketamine-clinic-[city]-[state] - City-specific clinic directory pages
+- /ketamine-for-[condition] - Condition-specific information and clinic listings
+- /listing/[slug] - Individual clinic profiles with reviews, pricing, and contact info
+- /blog - Educational articles about ketamine therapy
+- /blog/[slug] - Individual blog articles
+- /add-listing - Clinic submission form for providers
+- /disclaimer - Full medical disclaimer and legal notice
+
+## Conditions Covered
+
+- Treatment-Resistant Depression
+- PTSD (Post-Traumatic Stress Disorder)
+- Generalized Anxiety Disorder
+- Chronic Pain Syndromes (CRPS, Fibromyalgia, Neuropathic Pain)
+- Bipolar Depression
+- Obsessive-Compulsive Disorder
+- Suicidal Ideation
+- Chronic Migraine
+
+## Content Guidelines
+
+All content on this site follows medical content best practices:
+- Uses hedging language ("studies suggest," "research indicates," "may help")
+- Never makes direct medical claims or guarantees treatment outcomes
+- Includes medical caveats ("consult your physician," "individual results vary")
+- References published research where applicable
+- Includes crisis resources on every page
+- Full medical disclaimer in footer and on dedicated disclaimer page
+
+## Data
+
+Clinic listings include: business name, address, city, state, phone, email, website, conditions treated, treatment types (IV infusion, IM injection, intranasal, sublingual, racemic ketamine), insurance acceptance, telehealth availability, pricing range, ratings, and patient reviews.
+
+## Contact
+
+- General: info@ketamineclinics.com
+- Advertising: ads@ketamineclinics.com
+- Legal: legal@ketamineclinics.com
