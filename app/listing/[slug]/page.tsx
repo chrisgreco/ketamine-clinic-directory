@@ -283,7 +283,7 @@ export default async function ListingPage({ params }: { params: { slug: string }
             <div className="space-y-3">
               {listing.phone && (
                 <a
-                  href={`tel:${listing.phone}`}
+                  href={`tel:${listing.phone?.replace(/\D/g, "")}`}
                   className="flex items-center gap-3 text-soft-white/70 hover:text-teal transition-colors text-sm"
                 >
                   <Phone className="w-4 h-4 text-teal" />
