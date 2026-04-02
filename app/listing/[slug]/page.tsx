@@ -313,6 +313,15 @@ export default async function ListingPage({ params }: { params: { slug: string }
             </div>
           </div>
 
+          <div className="rounded-lg border border-white/5 bg-card p-4 text-center">
+            <p className="text-sm text-soft-white/50">
+              Own this clinic?{" "}
+              <Link href="/add-listing" className="font-semibold text-teal hover:underline">
+                Claim your listing.
+              </Link>
+            </p>
+          </div>
+
           <LeadForm listingId={listing.id} city={listing.city} state={listing.state} />
 
           <MvAdBox />

@@ -49,13 +49,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                 Resources
               </Link>
               <Link href="/add-listing" className="hover:text-teal transition-colors">
-                Add Clinic
+                Claim Clinic
               </Link>
               <Link
                 href="/add-listing"
                 className="bg-teal text-navy font-semibold px-4 py-2 rounded-lg hover:bg-teal/90 transition-colors"
               >
-                List Your Clinic
+                Claim Your Listing
               </Link>
             </nav>
           </div>
@@ -90,7 +90,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   <li><Link href="/blog" className="hover:text-teal">Blog</Link></li>
                   <li><Link href="/blog/how-much-does-ketamine-therapy-cost" className="hover:text-teal">Pricing Guide</Link></li>
                   <li><Link href="/blog/how-to-find-ketamine-clinic-near-me" className="hover:text-teal">How to Find a Clinic</Link></li>
-                  <li><Link href="/add-listing" className="hover:text-teal">Add Your Clinic</Link></li>
+                  <li><Link href="/add-listing" className="hover:text-teal">Claim Your Listing</Link></li>
                 </ul>
               </div>
               <div>

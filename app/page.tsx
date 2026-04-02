@@ -169,16 +169,16 @@ export default function HomePage() {
       {/* Provider CTA — simple, not flashy */}
       <section className="border-t border-white/5 bg-card/30">
         <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
-          <h2 className="font-display text-2xl text-soft-white mb-3">List your clinic</h2>
+          <h2 className="font-display text-2xl text-soft-white mb-3">Own a listed clinic?</h2>
           <p className="text-soft-white/50 mb-6 max-w-md mx-auto">
-            Reach patients actively searching for ketamine therapy in your area.
-            Featured listings start at $49/month.
+            Already listed? Claim your profile to update your info, add photos,
+            and respond to reviews.
           </p>
           <Link
             href="/add-listing"
             className="inline-flex items-center gap-2 bg-teal text-navy text-sm font-semibold px-5 py-2.5 rounded-lg hover:bg-teal/90 transition-colors"
           >
-            Add your clinic <ArrowRight className="w-3.5 h-3.5" />
+            Claim your listing <ArrowRight className="w-3.5 h-3.5" />
           </Link>
         </div>
       </section>
