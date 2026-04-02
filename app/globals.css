@@ -12,19 +12,7 @@ body {
   @apply bg-teal/30 text-soft-white;
 }
 
-/* Custom scrollbar */
-::-webkit-scrollbar {
-  width: 6px;
-}
-::-webkit-scrollbar-track {
-  @apply bg-navy;
-}
-::-webkit-scrollbar-thumb {
-  @apply bg-teal/30 rounded-full;
-}
-::-webkit-scrollbar-thumb:hover {
-  @apply bg-teal/50;
-}
+/* Subtle scrollbar — not the usual AI-generated custom scrollbar */
 
 /* Prose styles for blog content */
 .prose-ketamine h2 {
