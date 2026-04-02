@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import Link from "next/link";
+import Logo from "@/components/Logo";
 import MedicalDisclaimer from "@/components/MedicalDisclaimer";
 import { Phone } from "lucide-react";
 
@@ -39,9 +40,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {/* Header */}
         <header className="border-b border-white/5">
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex items-center justify-between">
-            <Link href="/" className="font-display text-xl font-bold text-soft-white">
-              <span className="text-teal">Ketamine</span>Clinics
-            </Link>
+            <Logo />
             <nav className="hidden md:flex items-center gap-6 text-sm text-soft-white/70">
               <Link href="/" className="hover:text-teal transition-colors">
                 Home
@@ -70,9 +69,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
             <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-10">
               <div>
-                <Link href="/" className="font-display text-lg font-bold text-soft-white">
-                  <span className="text-teal">Ketamine</span>Clinics
-                </Link>
+                <Logo size="small" />
                 <p className="text-soft-white/50 text-sm mt-3">
                   Connecting patients with verified ketamine therapy providers across the
                   United States.
